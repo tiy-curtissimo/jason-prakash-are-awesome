@@ -16,7 +16,7 @@
     "karma-jasmine": "^1.1.0"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "node ./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
