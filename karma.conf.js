@@ -14,9 +14,15 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
+    // first, load angular
+    // then, load all supporting angular stuff
+    // then, load all module definitions
+    // then, load all the source files
     files: [
-      'src/**/*.js',
-      'test/**/*-spec.js'
+      'src/**/angular-1.6.1.min.js',
+      'src/**/angular-*.min.js',
+      'src/**/*.module.js',
+      'src/**/*.js'
     ],
 
 

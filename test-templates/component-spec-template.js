@@ -1,4 +1,9 @@
 /**
+ * HOW TO USE THIS FILE:
+ *   COPY THIS FILE TO THE DIRECTORY IN WHICH THE CODE YOU WANT TO TEST EXISTS.
+ *   THEN, COPY THE TESTS TEMPLATES AT THE BOTTOM OF THE FILE FOR WHAT YOU WANT
+ *   TO TEST IN YOUR APPLICATION.
+ * 
  * Documentation for jasmine matchers can be found at:
  *   https://jasmine.github.io/1.3/introduction.html
  */
@@ -10,10 +15,6 @@ describe("component: «component-name»", function() {
   beforeEach(inject(function(_$componentController_) {
     $componentController = _$componentController_;
   }));
-
-  it ('should pass for true', function () {
-    expect(1).toBeTruthy();
-  });
 
   /**
    * Templated test for checking if a controller binds
