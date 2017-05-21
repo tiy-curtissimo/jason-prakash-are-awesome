@@ -39,7 +39,7 @@ gulp.task('serve:prepare:angular-resource', [], () => {
 });
 
 gulp.task('serve:prepare:angular-ui-router', [], () => {
-  let p = './node_modules/angular-ui-router/release/angular-ui-router.min.js';
+  let p = './node_modules/@uirouter/angularjs/release/angular-ui-router.min.js';
   return pipeWithVersion(p);
 });
 
