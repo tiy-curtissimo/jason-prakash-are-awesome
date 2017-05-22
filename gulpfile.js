@@ -68,6 +68,6 @@ gulp.task('test:prepare', [
 gulp.task('serve', ['serve:prepare'], () => {
   sync.init({
     server: './src',
-    files: ['./src/*.html', './src/*.js']
+    files: ['./src/**/*.html', './src/**/*.js']
   });
 });
