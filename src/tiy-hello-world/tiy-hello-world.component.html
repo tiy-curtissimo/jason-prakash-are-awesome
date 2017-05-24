@@ -1,0 +1,8 @@
+<h1>Hello, {{ hello.goodName }}</h1>
+<div><input type="text" ng-model="hello.goodName"></div>
+<div>{{ hello.goodName }}</div>
+<div ng-transclude></div>
+<div><button ng-click="hello.handleClick()" class="pure-button">Click me</button></div>
+<tiy-child listen-to-me="hello.printEvent(value)"
+           complex-thing="hello.getComplexThing()"
+           b="hello.complexThing === null"></tiy-child>

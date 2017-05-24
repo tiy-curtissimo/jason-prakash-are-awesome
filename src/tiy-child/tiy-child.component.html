@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li ng-repeat="s in child.complexThing.list">{{ s }}</li>
+  </ul>
+</div>
+<div>Is it true? {{ child.b }}</div>
+<button ng-click="child.listenToMe({ value: s })"
+        ng-repeat="s in child.complexThing.list"
+        class="pure-button">All the little {{ s }}</button>
